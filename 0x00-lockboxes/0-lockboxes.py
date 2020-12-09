@@ -6,7 +6,7 @@ def canUnlockAll(boxes):
     """canUnlockAll - function to check if a list of lists contains all keys
     to open all boxes"""
     keys = [0]
-    if (len(boxes) == 0):
+    if (len(boxes) == 1):
         return True
 
     for key in keys:
