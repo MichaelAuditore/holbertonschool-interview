@@ -8,6 +8,9 @@ print(canUnlockAll(boxes), "\t: True")
 boxes = []
 print(canUnlockAll(boxes), "\t: True")
 
+boxes = [[], [], []]
+print(canUnlockAll(boxes), "\t: False")
+
 boxes = [[1], [5], [3], [4], []]
 print(canUnlockAll(boxes), "\t: False")
 
