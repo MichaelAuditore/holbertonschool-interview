@@ -5,11 +5,11 @@ canUnlockAll = __import__('0-lockboxes').canUnlockAll
 boxes = [[1], [2], [3], [4], []]
 print(canUnlockAll(boxes), "\t: True")
 
-boxes = []
-print(canUnlockAll(boxes), "\t: True")
-
 boxes = [[], [], []]
 print(canUnlockAll(boxes), "\t: False")
+
+boxes = [[]]
+print(canUnlockAll(boxes), "\t: True")
 
 boxes = [[1], [5], [3], [4], []]
 print(canUnlockAll(boxes), "\t: False")
