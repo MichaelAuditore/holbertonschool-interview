@@ -1,6 +1,5 @@
 #include "lists.h"
 #include <stdlib.h>
-#include <stdio.h>
 /**
  * insert_node - inserts a number into a sorted singly linked list
  * @head: pointer to pointer of first element in singly linked list
